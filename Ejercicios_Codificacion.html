@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 align="center">Tabla con combinacion de filas y columnas</h1>
+    <h2 align="center">TABLA 1</h2>
+
+    <table border="1px" cellspacing="2" cellpadding="8" align="center">
+        <thead>
+            <tr>
+                <th>Celda 1</th>
+                <th>Celda 2</th>
+                <th>Celda 3</th>
+                <th>Celda 4</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="3">Celda 5</td>
+                <td>Celda 6</td>
+                <td colspan="2"> Celda 7 </td>
+            </tr>
+            <tr>                
+                <td>Celda 8</td>
+                <td>Celda 9</td>
+                <td rowspan="2">Celda 10</td>
+            </tr>
+            <tr>
+            
+                <td colspan="2">Celda 11</td>
+                
+            </tr>
+
+        </tbody>
+
+    </table>
+<h1></h1>
+    <h2 align="center">TABLA 2</h2>
+
+    <table border="1px" cellspacing="3" cellpadding="7" align="center">
+
+        <thead>
+             
+            <tr>
+                <th>Horas</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miercoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+
+            </tr>
+
+
+        </thead>
+
+        <tbody>
+
+        <tr>
+            <th>8:00-9:00</th>
+            <th rowspan="2" style="background-color: red;">Matematicas</th>
+            <th style="background-color: firebrick;">Lengua</th>
+            <th>Musica</th>
+            <th></th>
+            <th rowspan="2" style="background-color: red;">Matematicas</th>
+        </tr>
+        <tr>
+            <th>9:00-10:00</th>
+            
+            <th>Inglés</th>
+            <th>Inglés</th>
+            <th style="background-color: lightpink;">E.Fisica</th>
+            
+        </tr>
+        <tr>
+            <th>10:00-10:30</th>
+            <td colspan="5" style="background-color: green;"> <b>Recreo</b> </td>
+            
+        </tr>
+        <tr>
+            <th>10:30-11:30</th>
+            <th style="background-color: lightpink;" >E.Fisica</th>
+            <th>Valenciano</th>
+            <th rowspan="2" style="background-color: firebrick;">Lengua</th>
+            <th style="background-color: yellow;">Informática</th>
+            <th>Inglés</th>
+        </tr>
+        <tr>
+            <th>12:30-13:30</th>
+            <th>Música</th>
+            <th style="background-color: lightpink;" >E.Fisica</th>           
+            <th rowspan="2" style="background-color: red;" >Matematica</th>
+            <th style="background-color: yellow;">Informática</th>
+        </tr>
+        <tr>
+            <th>13:30-14:30</th>
+            <th></th>
+            <th style="background-color: yellow;">Informática</th>
+            <th></th>
+            <th></th>
+            
+        </tr>
+
+
+
+
+
+        </tbody>
+
+
+
+    </table>
+    
+</body>
+</html>
